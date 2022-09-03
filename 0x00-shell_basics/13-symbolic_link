@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s /bin/lsm __ls__
+ln -s /bin/lsm__ls__

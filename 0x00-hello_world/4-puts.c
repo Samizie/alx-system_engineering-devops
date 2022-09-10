@@ -2,7 +2,7 @@
 /**
  * main -Entry point
  *
- * Return : prints "Programming is like building a multilingual puzzle"
+ * Return: prints "Programming is like building a multilingual puzzle"
  */
 int main(void)
 {

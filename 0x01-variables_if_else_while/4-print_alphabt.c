@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(alpha);
 		alpha++;
-		if (alpha == 'e' || alpha == 'q');
+		if (alpha == 'e' || alpha == 'q')
 		alpha++;
 	}
 	putchar('\n');

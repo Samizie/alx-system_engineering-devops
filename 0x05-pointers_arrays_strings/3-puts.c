@@ -6,7 +6,8 @@
  * Return: none
  */
 void _puts(char *str)
-{ while (*str)
+{
+	while (*str)
 	{
 		_putchar(*str);
 		str++;

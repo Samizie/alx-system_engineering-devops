@@ -13,17 +13,14 @@
  */
 int main(void)
 {int a, b, c;
-	
 	a = 0;
 	
 	while (a < 100)
-	{
-		b = a % 10; /* singles digit */
+	{	b = a % 10; /* singles digit */
 		c = a / 10; /* doubles digit */
 		
 		if (c < b)
-		{
-			putchar(c + '0');
+		{	putchar(c + '0');
 			putchar(b + '0');
 			
 			if (a < 89)

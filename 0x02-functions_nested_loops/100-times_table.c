@@ -4,7 +4,8 @@
  * @n: integer input
  * Return: void
  */
-void print_times_table(int n){
+void times_table(void)
+{
 	int a, b, c, d, e, f;
 	if (n >= 0 && n < 15)
 	{

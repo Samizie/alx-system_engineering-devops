@@ -18,7 +18,6 @@ int main(void)
 	{	b = a / 100; /* hundreds */
 		c = (a / 10) % 10; /* tens */
 		d = a % 10; /* singles */
-		
 		if (b < c && c < d)
 		{
 			putchar(b + '0');

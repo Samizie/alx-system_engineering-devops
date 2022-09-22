@@ -1,3 +1,5 @@
+#ifndef MAIN
+#define MAIN
 int _putchar(char c);
 
 char *_strcat(char *dest, char *src);
@@ -23,3 +25,4 @@ void print_number(int n);
 int main(void);
 
 void print_buffer(char *b, int size);
+#endif

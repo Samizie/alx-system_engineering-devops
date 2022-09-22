@@ -6,7 +6,6 @@
  */
 char *leet(char *s)
 {int i, j;
-
 	char letters[] = "aAeEoOtTlL";
 	char leet_it[] = "4433007711";
 	for (i = 0; s[i] != '\0'; i++)
